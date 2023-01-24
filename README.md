@@ -60,6 +60,19 @@ Lot 3
 
 p-value = 0.6072
 
+## Study Design: MechaCar vs Competition
 
+Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating
+
+In your description, address the following questions:
+What metric or metrics are you going to test?
+What is the null hypothesis or alternative hypothesis?
+What statistical test would you use to test the hypothesis? And why?
+What data is needed to run the statistical test?
+
+<img width="688" alt="Screen Shot 2023-01-23 at 22 08 16" src="https://user-images.githubusercontent.com/114015620/214210384-da10c80b-734a-452d-902e-0be3aa3d24dc.png">
+
+
+<img width="616" alt="Screen Shot 2023-01-23 at 22 08 32" src="https://user-images.githubusercontent.com/114015620/214210406-f96650e9-f946-4351-b8b9-b05627036afa.png">
 
 
