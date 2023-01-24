@@ -21,3 +21,8 @@ This function c
   It almost seems as if it were zero.
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
   The model an be used to predict mpg values with a multiple R-squared of 0.7149, meaning 72.49% is the proportion of the variation in mpg variable that can be explained by the other variables (independent).
+
+## Summ
+PSI
+<img width="509" alt="Screen Shot 2023-01-23 at 21 22 18" src="https://user-images.githubusercontent.com/114015620/214205955-8ca36fe2-31de-4c2d-be7b-c31ee4328eca.png">
+Lots
