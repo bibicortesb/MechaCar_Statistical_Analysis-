@@ -38,7 +38,27 @@ The design specifications for the MechaCar suspension coils dictate that the var
 1.  In your MechaCarChallenge.RScript, write an RScript using the t.test() function to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
 
 
+<img width="517" alt="Screen Shot 2023-01-23 at 21 48 10" src="https://user-images.githubusercontent.com/114015620/214208462-71951a0a-9350-47f5-a058-13bee0db179c.png">
+
+p-value = 0.06028, therefore---
+
 2.  Next, write three more RScripts in your MechaCarChallenge.RScript using the t.test() function and its subset() argument to determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch.
+
+Lot 1
+
+<img width="553" alt="Screen Shot 2023-01-23 at 21 59 07" src="https://user-images.githubusercontent.com/114015620/214209536-ef1987d4-93a1-46cf-bec8-4b77f92c7ffc.png">
+p-value = 1
+
+Lot 2
+
+<img width="547" alt="Screen Shot 2023-01-23 at 21 59 38" src="https://user-images.githubusercontent.com/114015620/214209614-68c65adb-5013-4de4-a54f-94b53ea100fa.png">
+p-value = 0.6072
+
+Lot 3
+
+<img width="550" alt="Screen Shot 2023-01-23 at 22 00 04" src="https://user-images.githubusercontent.com/114015620/214209653-996caedb-d2fc-4f4d-b37e-64dc9a1c753f.png">
+
+p-value = 0.6072
 
 
 
