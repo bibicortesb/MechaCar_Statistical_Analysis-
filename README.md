@@ -22,7 +22,7 @@ This function c
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
   The model an be used to predict mpg values with a multiple R-squared of 0.7149, meaning 72.49% is the proportion of the variation in mpg variable that can be explained by the other variables (independent).
 
-## Summ
+## Summary Statistics on Suspension Coils
 PSI
 
 <img width="509" alt="Screen Shot 2023-01-23 at 21 22 18" src="https://user-images.githubusercontent.com/114015620/214205955-8ca36fe2-31de-4c2d-be7b-c31ee4328eca.png">
@@ -30,6 +30,9 @@ PSI
 Summary group by lots
 
 <img width="627" alt="Screen Shot 2023-01-23 at 21 29 06" src="https://user-images.githubusercontent.com/114015620/214206580-e24353b4-bdea-4e25-adc2-129d332e226b.png">
+
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
 
 
 
