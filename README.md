@@ -16,11 +16,11 @@ mpg = 6.267e+00vehicle_length + 1.245e-03vehicle_weight + 6.877e-02spoiler_angle
 This function c
 
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-  There are coefficients that are near 0 value
+  Variance**
 - Is the slope of the linear model considered to be zero? Why or why not?
-  It almost seems as if it were zero.
+  The slope of the model is not zero, since the coefficients provide the change of mpg values with respect to the dependent variables. If the slope were zero, we would expect a constant mpg value.
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
-  The model an be used to predict mpg values with a multiple R-squared of 0.7149, meaning 72.49% is the proportion of the variation in mpg variable that can be explained by the other variables (independent).
+The model an be used to predict mpg values with a multiple R-squared of 0.7149, meaning 72.49% is the proportion of the variation in mpg variable that can be explained. There most be more variables contributting to the change in mpg, further analysis may be performed to improve R-squared value. Some alternatives could be to explore more variables or to try to find another distribution that better fits data. 
 
 ## Summary Statistics on Suspension Coils
 PSI
