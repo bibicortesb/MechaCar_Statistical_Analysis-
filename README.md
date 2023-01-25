@@ -51,6 +51,7 @@ After this, a t-test was performed for each lot.
 Lot 1
 
 Ho: PSI mean in Lot1 is equal to 1,500 psi.
+
 Ha: PSI different in Lot1 is equal to 1,500 psi.
 
 <img width="553" alt="Screen Shot 2023-01-23 at 21 59 07" src="https://user-images.githubusercontent.com/114015620/214209536-ef1987d4-93a1-46cf-bec8-4b77f92c7ffc.png">
@@ -60,6 +61,7 @@ The p-value = 1. It is greater than 0.05, therefore, the Ho is rejcted.
 Lot 2
 
 Ho: PSI mean in Lot2 is equal to 1,500 psi.
+
 Ha: PSI different in Lot2 is equal to 1,500 psi.
 
 <img width="547" alt="Screen Shot 2023-01-23 at 21 59 38" src="https://user-images.githubusercontent.com/114015620/214209614-68c65adb-5013-4de4-a54f-94b53ea100fa.png">
@@ -68,6 +70,7 @@ The p-value = 0.6072, since it is greater than 0.05 Ho is rejected.
 Lot 3
 
 Ho: PSI mean in Lot3 is equal to 1,500 psi.
+
 Ha: PSI different in Lot3 is equal to 1,500 psi.
 
 <img width="550" alt="Screen Shot 2023-01-23 at 22 00 04" src="https://user-images.githubusercontent.com/114015620/214209653-996caedb-d2fc-4f4d-b37e-64dc9a1c753f.png">
@@ -78,7 +81,9 @@ After the three t-tests it concluded that each Lot means are different to 1,500 
 
 ## Study Design: MechaCar vs Competition
 
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating
+Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+
+T-test could be tested against competition on fuel efficiency 
 
 In your description, address the following questions:
 What metric or metrics are you going to test?
