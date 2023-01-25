@@ -25,5 +25,5 @@ t.test(lot1$PSI, mu=1500)
 t.test(lot2$PSI, mu=1500) 
 t.test(lot2$PSI, mu=1500) 
 
-#hola
+
 
