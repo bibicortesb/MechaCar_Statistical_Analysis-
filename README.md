@@ -13,11 +13,10 @@ In the picture bellow the output is shown:
 
 The coefficients allows the linear regression to be as follows:
 mpg = 6.267e+00vehicle_length + 1.245e-03vehicle_weight + 6.877e-02spoiler_angle + 3.546e+00ground_clearance - 3.411e+00AWD -1.040e+02 
-This function c
 
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
   
-  Variance**
+Thanks to the p-value<0.05 criteria, it can be concluded that the variables that are statistical significant to the model are the intercept, vehicle_lenght and ground_clearance. As it is, the model presents a 72.49% of explained variation for the mpg variable. It would be a good idea to repeat the linear regression without including vehicle_weight, spoiler_angle and AWD. Actually, a Design of Experiments could be performed to determine whether all variables are significant or the interaction between them to find a better fitted model. 
   
 - Is the slope of the linear model considered to be zero? Why or why not?
   
@@ -25,7 +24,7 @@ This function c
   
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
-The model has been used to predict mpg values with a multiple R-squared of 0.7149, meaning 72.49% is the proportion of the variation in mpg variable that can be explained. There most be more variables contributting to the change in mpg, further analysis may be performed to improve R-squared value. Some alternatives could be to explore more variables or to try to find another distribution that better fits data. 
+The model has been used to predict mpg values with a multiple R-squared of 0.7149, meaning 72.49% is the proportion of the variation in mpg variable that can be explained. There most be more variables contributting to the change in mpg, further analysis may be performed to improve R-squared value. Some alternatives could be to explore more variables, analize interaction between current variables or try to find another distribution that better fits the data. 
 
 ## Summary Statistics on Suspension Coils
 
