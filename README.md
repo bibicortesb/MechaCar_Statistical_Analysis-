@@ -2,6 +2,12 @@
 
 ## Purpose
 
+The new prototype MechCar has some production troubles. Therefore, a statistical analysis is required for delivering some insights to the manufacturing team. The analysis includes:
+
+- Multiple linear regression to predict mpg of prototypes. 
+- PSI descriptive statistic summary. 
+- T-test for PSI to verify mean PSI value across population.
+- A Statistical Design to compare performance against other competitors.
 
 ## Linear Regression to Predict MPG
 
@@ -52,6 +58,7 @@ H0:	σ2=100
 
 Ha:	σ2≠100	   	for a two-tailed test
 
+
 ## T-Tests on Suspension Coils
 
 A t-test was performed to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.. 
@@ -75,7 +82,7 @@ Ha: PSI different in Lot1 is equal to 1,500 psi.
 
 <img width="553" alt="Screen Shot 2023-01-23 at 21 59 07" src="https://user-images.githubusercontent.com/114015620/214209536-ef1987d4-93a1-46cf-bec8-4b77f92c7ffc.png">
 
-The p-value = 1. It is greater than 0.05, therefore, the Ho is rejcted.  
+The p-value = 1. It is greater than 0.05, therefore, the Ho is not rejcted.  
 
 Lot 2
 
@@ -84,7 +91,7 @@ Ho: PSI mean in Lot2 is equal to 1,500 psi.
 Ha: PSI different in Lot2 is equal to 1,500 psi.
 
 <img width="547" alt="Screen Shot 2023-01-23 at 21 59 38" src="https://user-images.githubusercontent.com/114015620/214209614-68c65adb-5013-4de4-a54f-94b53ea100fa.png">
-The p-value = 0.6072, since it is greater than 0.05 Ho is rejected. 
+The p-value = 0.6072, since it is greater than 0.05 Ho is not rejected. 
 
 Lot 3
 
@@ -95,9 +102,9 @@ Ha: PSI different in Lot3 is equal to 1,500 psi.
 <img width="586" alt="Screen Shot 2023-01-25 at 18 28 29" src="https://user-images.githubusercontent.com/114015620/214725803-f779a3f0-550c-4cbe-9b6a-f926b5e35960.png">
 
 
-The p-value = 0.04168. Since it is greater than 0.05 Ho is rejected. 
+The p-value = 0.04168. Since it is smaller than 0.05 Ho is rejected. 
 
-After the three t-tests it concluded that each Lot means are different to 1,500 psi. 
+After the three t-tests it concluded that Lot 1 and 2 means are not different to 1,500 psi. However, Lot 3 is different with a significance level of 95%. This means that this variation could be a cause of the manufacturing problems. 
 
 ## Study Design: MechaCar vs Competition
 
