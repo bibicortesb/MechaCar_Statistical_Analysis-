@@ -18,12 +18,12 @@ t.test(SuspensionCoil_table$PSI, mu=1500)
 
 lot1 <- subset(SuspensionCoil_table, Manufacturing_Lot == "Lot1")
 lot2 <- subset(SuspensionCoil_table, Manufacturing_Lot == "Lot2")
-lot2 <- subset(SuspensionCoil_table, Manufacturing_Lot == "Lot2")
+lot3 <- subset(SuspensionCoil_table, Manufacturing_Lot == "Lot3")
 
 # each subste
 t.test(lot1$PSI, mu=1500) 
 t.test(lot2$PSI, mu=1500) 
-t.test(lot2$PSI, mu=1500) 
+t.test(lot3$PSI, mu=1500) 
 
 
 
