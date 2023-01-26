@@ -104,7 +104,7 @@ Ha: PSI different in Lot3 is equal to 1,500 psi.
 
 The p-value = 0.04168. Since it is smaller than 0.05 Ho is rejected. 
 
-After the three t-tests it concluded that Lot 1 and 2 means are not different to 1,500 psi. However, Lot 3 is different with a significance level of 95%. This means that this variation could be a cause of the manufacturing problems. 
+After the three t-tests it concluded that Lot 1 and 2 means are not different to 1,500 psi. However, Lot 3 is different with a significance level of 0.05%. This means that this variation could be a cause of the manufacturing problems. 
 
 ## Study Design: MechaCar vs Competition
 
