@@ -1,6 +1,6 @@
 # MechaCar_Statistical_Analysis-
 
-### Linear Regression to Predict MPG
+## Linear Regression to Predict MPG
 Code to call the linear regression
 
 mpg.lm <- lm(formula = mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance +AWD,
@@ -16,22 +16,38 @@ mpg = 6.267e+00vehicle_length + 1.245e-03vehicle_weight + 6.877e-02spoiler_angle
 This function c
 
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+  
   Variance**
+  
 - Is the slope of the linear model considered to be zero? Why or why not?
+  
   The slope of the model is not zero, since the coefficients provide the change of mpg values with respect to the dependent variables. If the slope were zero, we would expect a constant mpg value.
+  
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
-The model an be used to predict mpg values with a multiple R-squared of 0.7149, meaning 72.49% is the proportion of the variation in mpg variable that can be explained. There most be more variables contributting to the change in mpg, further analysis may be performed to improve R-squared value. Some alternatives could be to explore more variables or to try to find another distribution that better fits data. 
+
+The model has been used to predict mpg values with a multiple R-squared of 0.7149, meaning 72.49% is the proportion of the variation in mpg variable that can be explained. There most be more variables contributting to the change in mpg, further analysis may be performed to improve R-squared value. Some alternatives could be to explore more variables or to try to find another distribution that better fits data. 
 
 ## Summary Statistics on Suspension Coils
-PSI
+
+### Total summary
 
 <img width="509" alt="Screen Shot 2023-01-23 at 21 22 18" src="https://user-images.githubusercontent.com/114015620/214205955-8ca36fe2-31de-4c2d-be7b-c31ee4328eca.png">
 
-Summary group by lots
+In the table descriptive statistics is presented, with a mean of 1498.78 psi overall, in some cases more in some less 7.89 psi.
+
+### Summary group by lots
 
 <img width="627" alt="Screen Shot 2023-01-23 at 21 29 06" src="https://user-images.githubusercontent.com/114015620/214206580-e24353b4-bdea-4e25-adc2-129d332e226b.png">
 
-The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+In the table above, each lot is presented with its mean around the value 1,500 psi. Let's test if we can conclude that value is statistically equal in all lots. 
+
+- The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+For Lot 1 and 2, the variance has a small value (0.97 and 7.46 respectively) compared to 100 pounds. However, the variance on Lot 3 is 170.28 representing a huge risk for the suspension coils quality. To be sure, a Chi-square test must be performed to support with enough statistical information that:
+
+H0:	σ2=100
+
+Ha:	σ2≠100	   	for a two-tailed test
 
 ## T-Tests on Suspension Coils
 
