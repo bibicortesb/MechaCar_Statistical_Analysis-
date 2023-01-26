@@ -16,7 +16,7 @@ mpg = 6.267e+00vehicle_length + 1.245e-03vehicle_weight + 6.877e-02spoiler_angle
 
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
   
-Thanks to the p-value<0.05 criteria, it can be concluded that the variables that are statistical significant to the model are the intercept, vehicle_lenght and ground_clearance. As it is, the model presents a 72.49% of explained variation for the mpg variable. It would be a good idea to repeat the linear regression without including vehicle_weight, spoiler_angle and AWD. Actually, a Design of Experiments could be performed to determine whether all variables are significant or the interaction between them to find a better fitted model. 
+Thanks to the p-value<0.05 criteria, it can be concluded that the variables that are statistical significant (non-random variance) to the model are  vehicle_lenght and ground_clearance. As it is, the model presents a 72.49% of explained variation for the mpg variable. It would be a good idea to repeat the linear regression without including vehicle_weight, spoiler_angle and AWD. Actually, a Design of Experiments could be performed to determine whether all variables are significant or the interaction between them to find a better fitted model. 
   
 - Is the slope of the linear model considered to be zero? Why or why not?
   
@@ -24,7 +24,7 @@ Thanks to the p-value<0.05 criteria, it can be concluded that the variables that
   
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
-The model has been used to predict mpg values with a multiple R-squared of 0.7149, meaning 72.49% is the proportion of the variation in mpg variable that can be explained. There most be more variables contributting to the change in mpg, further analysis may be performed to improve R-squared value. Some alternatives could be to explore more variables, analize interaction between current variables or try to find another distribution that better fits the data. 
+The model has been used to predict mpg values with a multiple R-squared of 0.7149, it has a strong correlation. In other words, 72.49% of the variation in mpg variable can be explained by the indpendent variables used in the linear regression model. Although reduce error in predictions, there most be more variables contributting to the change in mpg. Further analysis may be performed to improve R-squared value. Some alternatives could be to explore more variables, analize interaction between current variables or try to find another distribution that better fits the data. 
 
 ## Summary Statistics on Suspension Coils
 
@@ -50,10 +50,10 @@ Ha:	σ2≠100	   	for a two-tailed test
 
 ## T-Tests on Suspension Coils
 
-1.  In your MechaCarChallenge.RScript, write an RScript using the t.test() function to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
+A t-test was performed to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.. 
 
-A t-test was performed to determine if the PSI across all manufacturing lots is statistically different. 
 Ho: PSI mean is equal to 1,500 psi.
+
 Ha: PSI mean is different to 1,500 psi.
 
 <img width="517" alt="Screen Shot 2023-01-23 at 21 48 10" src="https://user-images.githubusercontent.com/114015620/214208462-71951a0a-9350-47f5-a058-13bee0db179c.png">
@@ -88,9 +88,10 @@ Ho: PSI mean in Lot3 is equal to 1,500 psi.
 
 Ha: PSI different in Lot3 is equal to 1,500 psi.
 
-<img width="550" alt="Screen Shot 2023-01-23 at 22 00 04" src="https://user-images.githubusercontent.com/114015620/214209653-996caedb-d2fc-4f4d-b37e-64dc9a1c753f.png">
+<img width="586" alt="Screen Shot 2023-01-25 at 18 28 29" src="https://user-images.githubusercontent.com/114015620/214725803-f779a3f0-550c-4cbe-9b6a-f926b5e35960.png">
 
-The p-value = 0.6072. Since it is greater than 0.05 Ho is rejected. 
+
+The p-value = 0.04168. Since it is greater than 0.05 Ho is rejected. 
 
 After the three t-tests it concluded that each Lot means are different to 1,500 psi. 
 
@@ -105,10 +106,5 @@ What metric or metrics are you going to test?
 What is the null hypothesis or alternative hypothesis?
 What statistical test would you use to test the hypothesis? And why?
 What data is needed to run the statistical test?
-
-<img width="688" alt="Screen Shot 2023-01-23 at 22 08 16" src="https://user-images.githubusercontent.com/114015620/214210384-da10c80b-734a-452d-902e-0be3aa3d24dc.png">
-
-
-<img width="616" alt="Screen Shot 2023-01-23 at 22 08 32" src="https://user-images.githubusercontent.com/114015620/214210406-f96650e9-f946-4351-b8b9-b05627036afa.png">
 
 
