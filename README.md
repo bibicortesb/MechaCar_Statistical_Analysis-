@@ -1,6 +1,10 @@
 # MechaCar_Statistical_Analysis-
 
+## Purpose
+
+
 ## Linear Regression to Predict MPG
+
 Code to call the linear regression
 
 mpg.lm <- lm(formula = mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance +AWD,
@@ -99,12 +103,42 @@ After the three t-tests it concluded that each Lot means are different to 1,500 
 
 Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
 
-T-test could be tested against competition on fuel efficiency 
+A statistical test can be performed to analize fuel efficiency in highway, mantainance cost and safety rating.
 
-In your description, address the following questions:
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+1.  What metric or metrics are you going to test?
 
+Efficiency = kilometers per liter or miles per gallon
+
+Mantainace Cost = $$ per time horizon (5-years)
+
+Recoils = Number of recoils over defined period.
+
+
+2.  What is the null hypothesis or alternative hypothesis?
+
+### Efficiency
+
+Ho:Average Efficiency MechaCar > Average Efficiency Competitor
+
+Ha: Average Efficiency MechaCar < Average Efficiency Competitor
+
+### Mantainance Cost
+
+Ho: Mantainance Cost MechaCar < Mantainance Cost Competitor
+
+Ha: Mantainance Cost MechaCar < Mantainance Cost Competitor
+
+### Recoils
+
+Ho: Variance in number of recoils MechaCar < Variance in number of recoils  Competitor
+
+Ha: Variance in number of recoils MechaCar > Variance in number of recoils  Competitor 
+
+3.  What statistical test would you use to test the hypothesis? And why?
+
+For Fuel Efficiency, Mantainance Cost t-test since MachaCar means values are compared between the two groups. Whereas, in Recoils a Chi-square since it would be needed the variance of recoils in MachaCar and its competitor. 
+
+4.  What data is needed to run the statistical test?
+
+A data set of at least 30 observations for fuel efficiency, mantainance cost and number of recoils. 
 
